@@ -11,7 +11,9 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Logo } from "../Logo/Logo";
 
-export const SiteNavbar = () => {
+
+
+export default function SiteNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Home", "About", "Our Features", "Testimonials"];

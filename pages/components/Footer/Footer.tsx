@@ -12,7 +12,7 @@ import { MapIcon } from "../Icons/MapIcon";
 import { BrowseIcon } from "../Icons/BrowseIcon";
 import Link from "next/link";
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <footer className="bg-green-100 relative z-50 px-4 lg:px-0 lg:pt-20 pt-12 pb-6 lg:pb-12 mt-12 rounded-3xl">
       <Container>
