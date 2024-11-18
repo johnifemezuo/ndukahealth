@@ -86,7 +86,7 @@ export const TestimonialSection = () => {
   return (
     <div
       id="Testimonials"
-      className="overflow-hidden mt-9 h-[660px] lg:h-[600px] lg:mt-8 rounded-3xl relative   z-50"
+      className="overflow-hidden mt-9 h-[660px] lg:h-[600px] lg:mt-8 rounded-3xl relative "
     >
       <img
         src="/images/bg-img.png"

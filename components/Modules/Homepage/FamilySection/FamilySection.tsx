@@ -4,7 +4,7 @@ import { Container } from "@/components/layout/Container";
 
 export const FamilySection = () => {
   return (
-    <div className="overflow-hidden h-[1133px] bg-red-300 lg:mt-12 rounded-3xl relative z-0 pb-12 mt-8 ">
+    <div className="overflow-hidden lg:h-auto h-[1133px] bg-red-300 lg:mt-12 rounded-3xl relative z-0 pb-12 mt-8 ">
       <div className="bg-[#317046c8] z-50  w-full h-[1333px] lg:h-screen absolute inset-0"></div>
       <img
         src="/images/nduka-bg.png"
@@ -17,7 +17,7 @@ export const FamilySection = () => {
           <div className="w-full  lg:flex overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 ">
             <div className="w-full  md:w-[650px] xl:w-[750px] space-y-8 lg:space-y-10 pt-20 ">
               <p className="text-sm uppercase leading-7 lg:text-base -tracking-tighter text-white">
-                Family DESEASE history
+                Family desease history
               </p>
               <h1 className="text-3xl leading-9 text-white lg:text-6xl xl:text-5xl font-semibold text-text-color">
                 Manage Family Health, Prevent Disease
