@@ -1,7 +1,6 @@
+import { Container } from "@/components/layout/Container";
+import { PrivacyPolicy } from "@/components/Modules/PrivacyPolicy/PrivacyPolicy";
 import { Inter } from "next/font/google";
-import { TermsAndCondition } from "./components/Modules/TermsAndCondition/TermsAndCondition";
-import { Container } from "./layout/Container";
-import { PrivacyPolicy } from "./components/Modules/PrivacyPolicy/PrivacyPolicy";
 
 const inter = Inter({ subsets: ["latin"] });
 

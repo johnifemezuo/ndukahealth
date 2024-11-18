@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { Container } from "@/pages/layout/Container";
+
+import { Container } from "@/components/layout/Container";
 
 export const FamilySection = () => {
   return (

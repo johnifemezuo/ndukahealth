@@ -38,15 +38,15 @@ export default function SiteNavbar() {
           </Link>
         </NavbarItem>
         <NavbarItem isActive={pathname === "/About"}>
-          <Link color="foreground" href="/About">
+          <Link color="foreground" href="#About">
             About
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/Our Features"}>
-          <Link href="/Our Features">Our Features </Link>
+        <NavbarItem isActive={pathname === "/Features"}>
+          <Link href="#Our Features">Our Features </Link>
         </NavbarItem>
         <NavbarItem isActive={pathname === "/Testimonial"}>
-          <Link color="foreground" href="/Testimonial">
+          <Link color="foreground" href="#Testimonial">
             Testimonial
           </Link>
         </NavbarItem>

@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { Container } from "@/pages/layout/Container";
 import { Logo } from "../Logo/Logo";
 import { Twitter } from "lucide-react";
 import { TwitterIcon } from "../Icons/TwitterIcon";
@@ -11,6 +10,7 @@ import { EmailIcon } from "../Icons/EmailIcon";
 import { MapIcon } from "../Icons/MapIcon";
 import { BrowseIcon } from "../Icons/BrowseIcon";
 import Link from "next/link";
+import { Container } from "../layout/Container";
 
 export default function Footer() {
   return (
@@ -70,17 +70,17 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#about" className="text-gray-600 hover:text-green-600">
+                  <a href="/#about" className="text-gray-600 hover:text-green-600">
                     About us
                   </a>
                 </li>
                 <li>
-                  <a href="#feature" className="text-gray-600 hover:text-green-600">
+                  <a href="/#feature" className="text-gray-600 hover:text-green-600">
                     Features
                   </a>
                 </li>
                 <li>
-                  <Link href="#testimonials" className="text-gray-600 hover:text-green-600">
+                  <Link href="/#testimonials" className="text-gray-600 hover:text-green-600">
                     Testimonial
                   </Link>
                 </li>

@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Container } from "@/pages/layout/Container";
 
-export const PrivacyPolicy = () => {
+import { Container } from "@/components/layout/Container";
+
+export const TermsAndCondition = () => {
   return (
     <div className="mt-12 lg:mt-20 text-base lg:text-lg">
       <Container>
@@ -47,7 +48,7 @@ export const PrivacyPolicy = () => {
         journey, you can focus on what truly matters—your well-being—knowing
         that your health insights are kept private and secure. Our mission is to
         empower you with the tools you need to manage your health effectively,
-        all while ensuring that your personal information rformation remains
+        all while ensuring that your personal information information remains
         protected.
         </div>
       </Container>

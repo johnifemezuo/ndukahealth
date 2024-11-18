@@ -1,4 +1,4 @@
-import { Container } from "@/pages/layout/Container";
+import { Container } from "@/components/layout/Container";
 
 export const HeroSection = () => {
   return (
@@ -15,7 +15,11 @@ export const HeroSection = () => {
             health app.
           </p>
 
-          <button className="bg-[#0AD23F] px-6 py-4 rounded-md font-medium lg:text-lg">Join the Waitlist</button>
+       <div className="mt-5">
+       <a href="https://forms.gle/GnPFY8CgRZLneFDd9" target="_blank">
+          <button className="bg-[#0AD23F] px-6 py-4 rounded-md font-medium lg:text-lg">Join the Wait-list</button>
+        </a>
+       </div>
         </div>
 
         <div className="mt-12 lg:mt-0  mx-auto ">

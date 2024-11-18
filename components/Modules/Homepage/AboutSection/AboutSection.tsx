@@ -1,4 +1,4 @@
-import { Container } from "@/pages/layout/Container";
+import { Container } from "@/components/layout/Container";
 
 export const AboutSection = () => {
   return (

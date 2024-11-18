@@ -1,5 +1,5 @@
 "use client";
-import { Container } from "@/pages/layout/Container";
+import { Container } from "@/components/layout/Container";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 
