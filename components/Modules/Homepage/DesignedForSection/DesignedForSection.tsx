@@ -52,7 +52,7 @@ export const DesignedForSection = () => {
   ];
 
   return (
-    <div className="overflow-hidden lg:mt-12 rounded-3xl relative z-0  b">
+    <div className="overflow-hidden lg:mt-12 rounded-3xl relative z-0  mt-8">
       <div className=" bg-green-50 pt-16 lg:pt-28 px-4 sm:px-6 lg:px-8">
         <Container>
           {/* Header Section */}

@@ -17,6 +17,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   padding: 18px;
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

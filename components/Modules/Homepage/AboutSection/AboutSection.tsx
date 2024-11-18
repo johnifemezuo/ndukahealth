@@ -2,7 +2,7 @@ import { Container } from "@/components/layout/Container";
 
 export const AboutSection = () => {
   return (
-    <div className="pt-12 px-2 md:px-12 lg:px-0 rounded-3xl border mt-9 lg:mt-12">
+    <div id="About" className="pt-12 px-4 md:px-12 lg:px-0 rounded-3xl border mt-9 lg:mt-12">
       <Container>
           <div className=" lg:pt-16">
               <div className="lg:flex lg:flex-row flex flex-col-reverse space-y-12 lg:space-y-0 xl:space-x-20 2xl:justify-between items-center">
