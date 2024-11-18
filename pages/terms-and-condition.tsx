@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
-import { TermsAndCondition } from "./components/Modules/TermsAndCondition/TermsAndCondition";
-import { Container } from "./layout/Container";
+import { TermsAndCondition } from "../components/components/Modules/TermsAndCondition/TermsAndCondition";
+import { Container } from "../components/layout/Container";
 
 const inter = Inter({ subsets: ["latin"] });
 
