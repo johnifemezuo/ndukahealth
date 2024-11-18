@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { Container } from "@/pages/layout/Container";
 
 export const WellnessCheck = () => {
   return (

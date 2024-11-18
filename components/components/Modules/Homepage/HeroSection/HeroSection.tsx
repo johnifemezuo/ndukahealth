@@ -1,4 +1,4 @@
-import { Container } from "@/pages/layout/Container";
+import { Container } from "../../../../layout/Container";
 
 export const HeroSection = () => {
   return (

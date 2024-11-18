@@ -1,16 +1,15 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { Container } from "@/pages/layout/Container";
-import { Logo } from "../Logo/Logo";
-import { Twitter } from "lucide-react";
-import { TwitterIcon } from "../Icons/TwitterIcon";
+import Link from "next/link";
+import { Container } from "../../layout/Container";
+import { BrowseIcon } from "../Icons/BrowseIcon";
+import { EmailIcon } from "../Icons/EmailIcon";
 import { FacebookIcon } from "../Icons/FacebookIcon";
 import { InstagramIcon } from "../Icons/InstagramIcon";
 import { LinkedinIcon } from "../Icons/LinkedinIcon";
-import { PhoneIcon } from "../Icons/PhoneIcon";
-import { EmailIcon } from "../Icons/EmailIcon";
 import { MapIcon } from "../Icons/MapIcon";
-import { BrowseIcon } from "../Icons/BrowseIcon";
-import Link from "next/link";
+import { PhoneIcon } from "../Icons/PhoneIcon";
+import { TwitterIcon } from "../Icons/TwitterIcon";
+import { Logo } from "../Logo/Logo";
 
 export default function Footer() {
   return (

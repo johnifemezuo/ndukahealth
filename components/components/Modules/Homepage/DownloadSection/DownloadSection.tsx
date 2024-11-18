@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { Container } from "@/pages/layout/Container";
+
+import { Container } from "../../../../layout/Container";
 
 export const DownloadSection = () => {
   return (

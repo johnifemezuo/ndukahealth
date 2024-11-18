@@ -1,6 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
-import { Container } from "@/pages/layout/Container";
+import { Container } from "../../../layout/Container";
 
+/* eslint-disable react/no-unescaped-entities */
 export const TermsAndCondition = () => {
   return (
     <div className="mt-12 lg:mt-20 text-base lg:text-lg">

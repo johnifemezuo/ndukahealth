@@ -1,7 +1,7 @@
 "use client";
-import { Container } from "@/pages/layout/Container";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Container } from "../../../../layout/Container";
 
 /* eslint-disable @next/next/no-img-element */
 export const TestimonialSection = () => {
