@@ -67,7 +67,7 @@ export default function SiteNavbar() {
       {/* Mobile Menu */}
       <NavbarMenu className="mt-4 ">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem onClick={() => setIsMenuOpen(false)} key={`${item}-${index}`} className="space-y-5 mt-6">
+          <NavbarMenuItem onClick={() => setIsMenuOpen(false)} key={`${item}-${index}`} className="space-y-5 mt-6 z-40">
             <Link
               
               className="w-full text-2xl text-zinc-700"
@@ -78,6 +78,12 @@ export default function SiteNavbar() {
             </Link>
           </NavbarMenuItem>
         ))}
+
+{/* <NavbarMenuToggle
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              className="absolute z-0 !text-gray-800 h-screen !bg-transparent w-[400px]"
+              title="Menu"
+            /> */}
       </NavbarMenu>
     </Navbar>
     </nav>
