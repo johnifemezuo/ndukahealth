@@ -58,11 +58,11 @@ export const DesignedForSection = () => {
         <Container>
           {/* Header Section */}
           <ScrollReveal>
-          <div className="max-w-3xl mb-16">
-            <h2 className="text-sm font-medium text-gray-600 uppercase tracking-wide mb-2">
+          <div className="max-w-3xl mb-16 space-y-7">
+            <h2 className="text-sm font-medium text-gray-600 uppercase tracking-wider mb-2">
               OUR WELLNESS
             </h2>
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-3xl md:text-5xl font-medium text-gray-700 mb-6">
               Healthcare App designed for all.
             </h1>
           </div>

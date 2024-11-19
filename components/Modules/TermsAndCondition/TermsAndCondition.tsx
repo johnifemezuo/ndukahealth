@@ -1,10 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
 
 export const TermsAndCondition = () => {
   return (
     <div className="mt-12 lg:mt-20 text-base lg:text-lg">
+      <ScrollReveal>
       <Container>
         <div className="leading-8">
         At our cutting-edge platform, your privacy is not just a priority; it's
@@ -52,6 +54,8 @@ export const TermsAndCondition = () => {
         protected.
         </div>
       </Container>
+      </ScrollReveal>
+
     </div>
   );
 };

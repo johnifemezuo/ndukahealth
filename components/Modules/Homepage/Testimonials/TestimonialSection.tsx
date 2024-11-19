@@ -87,7 +87,7 @@ export const TestimonialSection = () => {
   return (
     <div
       id="testimonials"
-      className="overflow-hidden mt-9 h-[660px] md:h-[730px] lg:mt-8 rounded-3xl relative "
+      className="overflow-hidden mt-9 h-[660px] md:h-[660px] lg:mt-8 rounded-3xl relative "
     >
       <img
         src="/images/bg-img.png"
@@ -109,11 +109,11 @@ export const TestimonialSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left side */}
               <ScrollReveal>
-              <div className="text-white space-y-9 ">
-                <h2 className="text-3xl md:text-5xl font-bold mb-4">
+              <div className="text-white space-y-9 lg:space-y-12">
+                <h2 className="text-3xl md:text-5xl font-medium mb-4">
                   What our Users are saying their experience
                 </h2>
-                <p className="text-emerald-100 lg:text-lg">
+                <p className="text-white lg:text-lg max-w-xl">
                   Customers give us their expedience and ratings while working
                   with us.
                 </p>

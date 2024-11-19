@@ -9,7 +9,7 @@ export const MedicationTracking = () => {
         <div className="w-full lg:flex overflow-hidden justify-between lg:space-x-12  xl:pt-20 ">
         <ScrollReveal>
           <div className="w-full  md:w-[650px] xl:w-[550px] space-y-8 lg:space-y-12 pt-12 lg:pt-20 ">
-            <h1 className="text-3xl lg:text-2xl xl:text-4xl font-semibold text-text-color">
+            <h1 className="text-3xl lg:text-2xl xl:text-4xl font-medium text-zinc-700">
             Medication Tracking
             </h1>
 

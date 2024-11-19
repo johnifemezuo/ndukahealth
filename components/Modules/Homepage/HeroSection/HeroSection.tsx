@@ -7,11 +7,11 @@ export const HeroSection = () => {
       <div className="w-full px-4 lg:px-0 lg:flex overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 lg:items-center">
         <Reveal delay={0}>
           <div className="w-full text-center lg:text-left lg:w-[650px] xl:w-[750px] space-y-8 lg:space-y-12 pt-20 ">
-            <h1 className="text-4xl lg:text-6xl xl:text-7xl font-medium text-text-color">
+            <h1 className="text-4xl lg:text-6xl xl:text-6xl leading-10 font-medium text-[#30372F]">
               Take Control of Your Health with Real-Time Insights
             </h1>
 
-            <p className="text-lg leading-7 lg:text-xl ">
+            <p className="lg:text-lg leading-7 max-w-xl text-[#30372F]">
               Keep track of your family health metrics, generate personalized
               reports, and make smarter wellness decisions with our AI-powered
               health app.

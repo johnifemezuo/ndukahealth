@@ -15,38 +15,42 @@ export const FamilySection = () => {
 
       <div className="relative z-50 w-full lg:mt-16 px-4 lg:px-0">
         <Container>
-          <div className="w-full  lg:flex overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 ">
+          <div className="w-full  lg:flex items-center overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 ">
           <ScrollReveal>
-            <div className="w-full  md:w-[650px] xl:w-[750px] space-y-8 lg:space-y-10 pt-20 ">
+            <div className="w-full  md:w-[650px] xl:w-[700px] space-y-8 lg:space-y-9 pt-12 lg:pt-0 ">
               <p className="text-sm uppercase leading-7 lg:text-base -tracking-tighter text-white">
                 Family desease history
               </p>
-              <h1 className="text-3xl leading-9 text-white lg:text-6xl xl:text-5xl font-semibold text-text-color">
+              <h1 className="text-3xl text-white lg:text-6xl xl:text-5xl font-semibold text-text-color">
                 Manage Family Health, Prevent Disease
               </h1>
-              <p className="text-lg leading-7 lg:text-xl  text-white">
+              <p className=" leading-7 lg:text-xl  text-white font-light">
                 Keeping track of family health can be challenging, especially
                 with hereditary or chronic conditions. Our app is designed to
                 simplify this process, helping families manage and prevent
                 diseases effectively.
               </p>
 
-              <div className="grid md:grid-cols-2 gap-6 lg:gap-10">
+              <div className="grid md:grid-cols-2 gap-4 lg:gap-10">
                 <div className="flex items-center space-x-3">
                   <img src="trackIcon.svg" alt="" />
-                  <p className="text-white lg:text-xl">Track Family Health History</p>
+                  <p className="text-white font-light lg:text-lg">Track Family Health History</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <img src="trackIcon.svg" alt="" />
-                  <p className="text-white lg:text-xl">Track Family Health History</p>
+                  <p className="text-white font-light lg:text-lg">Preventative Care Alerts</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <img src="trackIcon.svg" alt="" />
-                  <p className="text-white lg:text-xl">Track Family Health History</p>
+                  <p className="text-white font-light lg:text-lg">AI-Powered Insights</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <img src="trackIcon.svg" alt="" />
-                  <p className="text-white lg:text-xl">Track Family Health History</p>
+                  <p className="text-white font-light lg:text-lg">Shared Health Management</p>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <img src="trackIcon.svg" alt="" />
+                  <p className="text-white font-light lg:text-lg">Early Detection</p>
                 </div>
               </div>
             </div>
@@ -57,7 +61,7 @@ export const FamilySection = () => {
               <img
                 src="/images/familyImage.png"
                 alt="Nduka hero"
-                className="w-[600px] lg:h-[600px]"
+                className="mlg:h-px]"
               />
             </div>
             </ScrollReveal>

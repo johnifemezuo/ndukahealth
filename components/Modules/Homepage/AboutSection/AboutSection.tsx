@@ -14,17 +14,17 @@ export const AboutSection = () => {
 
                 {/* Right side - Content */}
                 <ScrollReveal>
-                  <div className="space-y-6 w-full md:w-[500px]  xl:max-w-[700px]">
+                  <div className="space-y-6 w-full md:w-[50-0px]  xl:max-w-[700px]">
                     <div className="space-y-2">
-                      <h2 className="text-sm font-medium text-gray-600 uppercase tracking-wide">
+                      <h2 className="text-sm leading-6 font-medium text-gray-500 uppercase tracking-wider">
                         About Us
                       </h2>
-                      <h1 className="text-4xl font-bold text-gray-900">
+                      <h1 className="text-2xl lg:text-4xl font-medium text-gray-700">
                         Maximize Your Productivity with Our App
                       </h1>
                     </div>
 
-                    <p className="text-lg text-gray-600">
+                    <p className="lg:text-lg text-gray-600">
                       Discover the power of proactive health management with our
                       innovative platform. We provide you with real-time insights
                       that empower you to make informed decisions about your

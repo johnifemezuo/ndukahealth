@@ -16,12 +16,12 @@ import { Logo } from "../Logo/Logo";
 export default function SiteNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Home", "About", "Our Features", "Testimonials"];
+  const menuItems = ["Home", "About", "Features", "Testimonials"];
 
   const { pathname } = useRouter();
 
   return (
-    <nav className="fixed h-20 inset-0 z-50 w-full top-5 mx-auto max-w-[1340px] bg-transparent">
+    <nav className="fixed h-20 inset-0 z-50 w-full lg:top-5 mx-auto max-w-[1340px] bg-transparent">
     <Navbar
       maxWidth="2xl"
       className="!bg-transparent mt-5 rounded-full "
@@ -52,26 +52,26 @@ export default function SiteNavbar() {
         </NavbarItem>
       </NavbarContent>
 
-      <div className="">
+<div>
         <NavbarContent justify="end">
           <div className="flex items-center space-x-2  sm:space-x-0 ">
-            <p className="!text-black font-medium sm:hidden">Menu</p>
+            {/* <p className="!text-black font-medium sm:hidden">Menu</p> */}
             <NavbarMenuToggle
               aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-              className="sm:hidden !text-gray-800 "
+              className="sm:hidden !text-gray-800 h-6 w-8"
               title="Menu"
             />
           </div>
         </NavbarContent>
-      </div>
-
+        </div>
       {/* Mobile Menu */}
-      <NavbarMenu className="mt-12">
+      <NavbarMenu className="mt-4 ">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`} className="space-y-5 mt-6">
+          <NavbarMenuItem onClick={() => setIsMenuOpen(false)} key={`${item}-${index}`} className="space-y-5 mt-6">
             <Link
+              
               className="w-full text-2xl text-zinc-700"
-              href={`#/${item}`}
+              href={`/#${item.toLowerCase()}`}
               size="lg"
             >
               {item}
