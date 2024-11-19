@@ -3,6 +3,7 @@
 import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
 
+/* eslint-disable react/no-unescaped-entities */
 export const TermsAndCondition = () => {
   return (
     <div className="mt-12 lg:mt-20 text-base lg:text-lg">

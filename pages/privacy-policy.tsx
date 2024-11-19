@@ -3,6 +3,7 @@ import { Container } from "@/components/layout/Container";
 import { PrivacyPolicy } from "@/components/Modules/PrivacyPolicy/PrivacyPolicy";
 import { Inter } from "next/font/google";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function PrivacyPolicyPage() {

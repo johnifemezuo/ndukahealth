@@ -1,6 +1,7 @@
 "use client";
 import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
+
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 

@@ -7,8 +7,8 @@ import { DownloadSection } from "../components/Modules/Homepage/DownloadSection/
 import { FamilySection } from "../components/Modules/Homepage/FamilySection/FamilySection";
 import { HeroSection } from "../components/Modules/Homepage/HeroSection/HeroSection";
 import { MedicationTracking } from "../components/Modules/Homepage/MedicationTracking/MedicationTracking";
-import { TestimonialSection } from "../components/Modules/Homepage/Testimonials/TestimonialSection";
-import { WellnessCheck } from "../components/Modules/Homepage/WellnessCheck/WellnessCheck";
+import { WellnessCheck } from "@/components/Modules/Homepage/WellnessCheck/WellnessCheck";
+import { TestimonialSection } from "@/components/Modules/Homepage/Testimonials/TestimonialSection";
 
 const poppins = Poppins({
   subsets: ["latin"],

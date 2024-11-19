@@ -2,7 +2,6 @@ import Reveal from "@/components/Animation/Reveal";
 import { Container } from "@/components/layout/Container";
 import { TermsAndCondition } from "@/components/Modules/TermsAndCondition/TermsAndCondition";
 import { Inter } from "next/font/google";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function TermsAndConditionPage() {
