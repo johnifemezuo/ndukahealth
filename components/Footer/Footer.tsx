@@ -70,17 +70,17 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/#about" className="text-gray-600 hover:text-green-600">
+                  <a href="/#About" className="text-gray-600 hover:text-green-600">
                     About us
                   </a>
                 </li>
                 <li>
-                  <a href="/#feature" className="text-gray-600 hover:text-green-600">
+                  <a href="/#Feature" className="text-gray-600 hover:text-green-600">
                     Features
                   </a>
                 </li>
                 <li>
-                  <Link href="/#testimonials" className="text-gray-600 hover:text-green-600">
+                  <Link href="/#Testimonials" className="text-gray-600 hover:text-green-600">
                     Testimonial
                   </Link>
                 </li>

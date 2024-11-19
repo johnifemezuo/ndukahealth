@@ -5,11 +5,11 @@ import { Container } from "@/components/layout/Container";
 export const FamilySection = () => {
   return (
     <div className="overflow-hidden lg:h-auto h-[1133px] bg-red-300 lg:mt-12 rounded-3xl relative z-0 pb-12 mt-8 ">
-      <div className="bg-[#317046c8] z-50  w-full h-[1333px] lg:h-screen absolute inset-0"></div>
+      <div className="bg-[#317046c8] z-50  w-full h-[1400px] lg:h-[1300px] absolute inset-0"></div>
       <img
         src="/images/nduka-bg.png"
         alt="nduka background"
-        className="w-full absolute inset-0 z-0 h-[1333px] lg:h-screen "
+        className="w-full absolute inset-0 z-0 h-[1400px] lg:h-[1200px] "
       />
 
       <div className="relative z-50 w-full lg:mt-16 px-4 lg:px-0">

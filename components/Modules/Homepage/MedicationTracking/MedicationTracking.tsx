@@ -3,8 +3,8 @@
 export const MedicationTracking = () => {
   return (
     <div className="overflow-hidden mt-12  rounded-3xl relative z-0 pt-12 bg-[#E0F3F2]">
-      <div className="w-full lg:w-[1160px] mx-auto  px-4 md:px-0">
-        <div className="w-full lg:flex overflow-hidden justify-between lg:space-x-12  md:pt-20 xl:ty-20 ">
+      <div className="w-full lg:w-[1160px] mx-auto  px-4 md:px-20 lg:px-0">
+        <div className="w-full lg:flex overflow-hidden justify-between lg:space-x-12  xl:pt-20 ">
           <div className="w-full  md:w-[650px] xl:w-[550px] space-y-8 lg:space-y-12 pt-12 lg:pt-20 ">
             <h1 className="text-3xl lg:text-2xl xl:text-4xl font-semibold text-text-color">
             Medication Tracking

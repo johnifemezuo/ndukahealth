@@ -29,25 +29,25 @@ export const DesignedForSection = () => {
       title: "Senior citizens",
       description:
         "Ideal for anyone tracking their progress and enhancing their health, our app offers real-time insights and tailored recommendations to help you achieve your goals.",
-      imageUrl: "/images/abt-one.png",
+      imageUrl: "/images/img1.png",
     },
     {
       title: "Individuals",
       description:
         "Our app helps you track your wellness journey with instant feedback and personalized suggestions to achieve your health goals.",
-      imageUrl: "/images/abt-one.png",
+      imageUrl: "/images/img2.png",
     },
     {
       title: "Health care providers",
       description:
-        "Our app helps families strengthen bonds and enhance well-being with real-time insights and personalized suggestions.",
-      imageUrl: "/images/abt-one.png",
+        "Our app helps you track your wellness journey with instant feedback and personalized suggestions to achieve your health goals.",
+      imageUrl: "/images/img3.png",
     },
     {
       title: "Insurance",
       description:
         "Insurance platform helps families secure their future by providing personalized coverage options and real-time support for their health and financial needs.",
-      imageUrl: "/images/abt-one.png",
+      imageUrl: "/images/img4.png",
     },
   ];
 

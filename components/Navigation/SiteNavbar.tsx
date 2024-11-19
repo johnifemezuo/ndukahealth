@@ -21,7 +21,7 @@ export default function SiteNavbar() {
   const { pathname } = useRouter();
 
   return (
-    <nav className="fixed inset-0 z-50 w-full top-5 mx-auto max-w-[1500px]">
+    <nav className="fixed h-20 inset-0 z-50 w-full top-5 mx-auto max-w-[1340px] bg-transparent">
     <Navbar
       maxWidth="2xl"
       className="!bg-transparent mt-5 rounded-full "
@@ -37,15 +37,15 @@ export default function SiteNavbar() {
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/About"}>
+        <NavbarItem isActive={pathname === "/#About"}>
           <Link color="foreground" href="#About">
             About
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/Features"}>
+        <NavbarItem isActive={pathname === "/#Features"}>
           <Link href="#Features">Our Features </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/Testimonials"}>
+        <NavbarItem isActive={pathname === "/#Testimonials"}>
           <Link color="foreground" href="#Testimonials">
             Testimonial
           </Link>
@@ -66,19 +66,12 @@ export default function SiteNavbar() {
       </div>
 
       {/* Mobile Menu */}
-      <NavbarMenu>
+      <NavbarMenu className="mt-12">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item}-${index}`} className="space-y-5 mt-6">
             <Link
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
-              className="w-full"
-              href="#"
+              className="w-full text-2xl text-zinc-700"
+              href={`#/${item}`}
               size="lg"
             >
               {item}

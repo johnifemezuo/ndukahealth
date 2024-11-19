@@ -4,7 +4,7 @@ export const HeroSection = () => {
   return (
     <Container>
       <div className="w-full px-4 lg:px-0 lg:flex overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 lg:items-center">
-        <div className="w-full text-center lg:text-left md:w-[650px] xl:w-[750px] space-y-8 lg:space-y-12 pt-20 ">
+        <div className="w-full text-center lg:text-left lg:w-[650px] xl:w-[750px] space-y-8 lg:space-y-12 pt-20 ">
           <h1 className="text-4xl lg:text-6xl xl:text-7xl font-medium text-text-color">
             Take Control of Your Health with Real-Time Insights
           </h1>

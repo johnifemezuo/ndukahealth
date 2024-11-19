@@ -86,7 +86,7 @@ export const TestimonialSection = () => {
   return (
     <div
       id="Testimonials"
-      className="overflow-hidden mt-9 h-[660px] lg:h-[600px] lg:mt-8 rounded-3xl relative "
+      className="overflow-hidden mt-9 h-[660px] md:h-[730px] lg:mt-8 rounded-3xl relative "
     >
       <img
         src="/images/bg-img.png"
@@ -104,7 +104,7 @@ export const TestimonialSection = () => {
 
         {/* Content */}
         <Container>
-          <div className="relative z-10   lg:mt-12">
+          <div className="relative z-10 lg:mt-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left side */}
               <div className="text-white space-y-9 ">

@@ -5,12 +5,12 @@ export const AboutSection = () => {
     <div id="About" className="pt-12 px-4 md:px-12 lg:px-0 rounded-3xl border mt-9 lg:mt-12">
       <Container>
           <div className=" lg:pt-16">
-              <div className="lg:flex lg:flex-row flex flex-col-reverse space-y-12 lg:space-y-0 xl:space-x-20 2xl:justify-between items-center">
+              <div className="lg:flex xl:flex-row flex flex-col-reverse space-y-12 lg:space-y-0 xl:space-x-20 2xl:justify-between items-center">
                 {/* Left side - Mobile App Preview */}
                 <img src="/images/about-img.png"  className="lg:w-[550px] mt-12 lg:mt-0" alt="Nduka about us" />
 
                 {/* Right side - Content */}
-                <div className="space-y-6 w-full  xl:max-w-[700px]">
+                <div className="space-y-6 w-full md:w-[500px]  xl:max-w-[700px]">
                   <div className="space-y-2">
                     <h2 className="text-sm font-medium text-gray-600 uppercase tracking-wide">
                       About Us
