@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
+import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
 
 
@@ -56,6 +57,7 @@ export const DesignedForSection = () => {
       <div className=" bg-green-50 pt-16 lg:pt-28 px-4 sm:px-6 lg:px-8">
         <Container>
           {/* Header Section */}
+          <ScrollReveal>
           <div className="max-w-3xl mb-16">
             <h2 className="text-sm font-medium text-gray-600 uppercase tracking-wide mb-2">
               OUR WELLNESS
@@ -64,8 +66,10 @@ export const DesignedForSection = () => {
               Healthcare App designed for all.
             </h1>
           </div>
+          </ScrollReveal>
 
           {/* Features Grid */}
+          <ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature, index) => (
               <FeatureCard
@@ -76,6 +80,7 @@ export const DesignedForSection = () => {
               />
             ))}
           </div>
+          </ScrollReveal>
         </Container>
       </div>
     </div>

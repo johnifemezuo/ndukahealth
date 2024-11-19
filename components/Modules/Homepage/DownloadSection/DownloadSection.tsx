@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
+import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
 
 export const DownloadSection = () => {
@@ -13,6 +14,7 @@ export const DownloadSection = () => {
       />
 
       <Container>
+      <ScrollReveal>
         <div className="w-full lg:w-[1100px] mx-auto relative z-50 overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 lg:items-center">
           <div className="w-full text-center  space-y-8 lg:space-y-12 pt-20 ">
             <h1 className="text-3xl lg:text-6xl xl:text-6xl leading-10 font-medium text-text-color">
@@ -28,6 +30,7 @@ export const DownloadSection = () => {
             </button>
           </div>
         </div>
+        </ScrollReveal>
       </Container>
     </div>
   );

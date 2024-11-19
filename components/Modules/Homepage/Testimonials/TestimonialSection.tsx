@@ -1,4 +1,5 @@
 "use client";
+import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -85,7 +86,7 @@ export const TestimonialSection = () => {
 
   return (
     <div
-      id="Testimonials"
+      id="testimonials"
       className="overflow-hidden mt-9 h-[660px] md:h-[730px] lg:mt-8 rounded-3xl relative "
     >
       <img
@@ -107,6 +108,7 @@ export const TestimonialSection = () => {
           <div className="relative z-10 lg:mt-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left side */}
+              <ScrollReveal>
               <div className="text-white space-y-9 ">
                 <h2 className="text-3xl md:text-5xl font-bold mb-4">
                   What our Users are saying their experience
@@ -116,8 +118,10 @@ export const TestimonialSection = () => {
                   with us.
                 </p>
               </div>
+              </ScrollReveal>
 
               {/* Right side - Testimonial */}
+              <ScrollReveal>
               <div className="relative">
                 <div className="bg-white rounded-2xl p-6 shadow-lg h-[360px] overflow-hidden">
                   <div className="flex items-center gap-3 mb-4">
@@ -184,6 +188,7 @@ export const TestimonialSection = () => {
                   </div>
                 </div>
               </div>
+              </ScrollReveal>
             </div>
           </div>
         </Container>

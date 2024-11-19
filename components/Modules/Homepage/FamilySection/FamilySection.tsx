@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
+import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
 
 export const FamilySection = () => {
@@ -15,6 +16,7 @@ export const FamilySection = () => {
       <div className="relative z-50 w-full lg:mt-16 px-4 lg:px-0">
         <Container>
           <div className="w-full  lg:flex overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 ">
+          <ScrollReveal>
             <div className="w-full  md:w-[650px] xl:w-[750px] space-y-8 lg:space-y-10 pt-20 ">
               <p className="text-sm uppercase leading-7 lg:text-base -tracking-tighter text-white">
                 Family desease history
@@ -48,7 +50,9 @@ export const FamilySection = () => {
                 </div>
               </div>
             </div>
+            </ScrollReveal>
 
+            <ScrollReveal>
             <div className="mt-12 lg:mt-0  mx-auto ">
               <img
                 src="/images/familyImage.png"
@@ -56,6 +60,8 @@ export const FamilySection = () => {
                 className="w-[600px] lg:h-[600px]"
               />
             </div>
+            </ScrollReveal>
+
           </div>
         </Container>
       </div>

@@ -32,21 +32,21 @@ export default function SiteNavbar() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-8 " justify="center">
-        <NavbarItem className="!text-xl " isActive={pathname === "/"}>
-          <Link color="foreground" href="/">
+        <NavbarItem>
+          <Link  className={`w-full ${pathname === "/" ? "text-green-600" : "text-zinc-700"} text-lg`} href="/">
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/#About"}>
-          <Link color="foreground" href="#About">
+        <NavbarItem >
+          <Link className={`w-full text-lg ${pathname === "/#about" ? "text-green-600" : "text-zinc-700"}`}   href="/#about">
             About
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/#Features"}>
-          <Link href="#Features">Our Features </Link>
+        <NavbarItem>
+          <Link className={`w-full text-lg ${pathname === "/#features" ? "text-green-600" : "text-zinc-700"}`}  href="/#features">Our Features </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/#Testimonials"}>
-          <Link color="foreground" href="#Testimonials">
+        <NavbarItem>
+          <Link className={`w-full text-lg ${pathname === "/#testimonials" ? "text-green-600" : "text-zinc-700"}`}  color="foreground" href="#testimonials">
             Testimonial
           </Link>
         </NavbarItem>

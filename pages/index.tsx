@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { HeroSectionContainer } from "../components/HeroSectionContainer/HeroSectionContainer";
 import { AboutSection } from "../components/Modules/Homepage/AboutSection/AboutSection";
 import { DailyHealthTracking } from "../components/Modules/Homepage/DailyHealthTracking/DailyHealthTracking";
@@ -10,14 +10,19 @@ import { MedicationTracking } from "../components/Modules/Homepage/MedicationTra
 import { TestimonialSection } from "../components/Modules/Homepage/Testimonials/TestimonialSection";
 import { WellnessCheck } from "../components/Modules/Homepage/WellnessCheck/WellnessCheck";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+});
+
 
 export default function Home() {
   return (
     <>
       <title>Nduka : Take Control of Your Health with Real-Time Insights</title>
 
-      <main className="">
+      <main className={poppins.className}>
         <HeroSectionContainer>
           <HeroSection />
         </HeroSectionContainer>
