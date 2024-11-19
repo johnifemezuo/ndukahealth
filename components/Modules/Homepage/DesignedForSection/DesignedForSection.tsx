@@ -25,15 +25,9 @@ const FeatureCard = ({
 export const DesignedForSection = () => {
   const features = [
     {
-      title: "Senior citizens",
-      description:
-        "Ideal for anyone tracking their progress and enhancing their health, our app offers real-time insights and tailored recommendations to help you achieve your goals.",
-      imageUrl: "/images/img1.png",
-    },
-    {
       title: "Individuals",
       description:
-        "Our app helps you track your wellness journey with instant feedback and personalized suggestions to achieve your health goals.",
+        "We empower you with tools to monitor your health and prevent chronic diseases before they take hold. Our AI-driven insights offer personalized recommendations to help you stay ahead and take control of your well-being.",
       imageUrl: "/images/img2.png",
     },
     {
@@ -43,10 +37,16 @@ export const DesignedForSection = () => {
       imageUrl: "/images/img3.png",
     },
     {
-      title: "Insurance",
+      title: "Insurance Companies",
       description:
         "Insurance platform helps families secure their future by providing personalized coverage options and real-time support for their health and financial needs.",
       imageUrl: "/images/img4.png",
+    },
+    {
+      title: "Corporate Wellness Programs & Employers",
+      description:
+        "Support your team’s well-being with our AI-powered health tracking and wellness insights. By promoting healthier lifestyles, we help you reduce absenteeism, increase productivity, and create a happier, more engaged workforce.",
+      imageUrl: "/images/corporate-office.webp",
     },
   ];
 
@@ -57,9 +57,6 @@ export const DesignedForSection = () => {
           {/* Header Section */}
           <ScrollReveal>
             <div className="max-w-3xl mb-16 space-y-7">
-              <h2 className="text-sm font-medium text-gray-600 uppercase tracking-wider mb-2">
-                OUR WELLNESS
-              </h2>
               <h1 className="text-3xl md:text-5xl font-medium text-gray-700 mb-6">
                 Healthcare App designed for all.
               </h1>

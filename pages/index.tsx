@@ -31,13 +31,14 @@ export default function Home() {
 
         <FamilySection />
 
-        <DesignedForSection />
-
         <WellnessCheck />
 
+        <DailyHealthTracking />
+        
         <MedicationTracking />
 
-        <DailyHealthTracking />
+        <DesignedForSection />
+
 
         <DownloadSection />
 

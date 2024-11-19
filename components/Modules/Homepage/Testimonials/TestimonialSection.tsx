@@ -17,7 +17,7 @@ export const TestimonialSection = () => {
       avatar: "/images/abt-one.png",
       rating: 4.5,
       comment:
-        "Using this software has completely transformed the way I manage my projects. The intuitive interface and powerful features have made collaboration with my team seamless. I can't imagine going back to my old methods!",
+        "This app has the potential to transform how we approach health. It’s empowering to think of staying ahead of issues before they become problems.",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export const TestimonialSection = () => {
       avatar: "/images/abt-one.png",
       rating: 5,
       comment:
-        "Outstanding platform that has revolutionized our workflow. The features are exactly what we needed, and the support team is incredibly responsive.",
+        "The idea of personalized AI health insights feels like the future of healthcare—practical, accessible, and tailored to me.",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export const TestimonialSection = () => {
       avatar: "/images/abt-one.png",
       rating: 4.8,
       comment:
-        "Exceptional tool that has made a significant impact on our team's productivity. The interface is clean and user-friendly, making it easy for everyone to adapt.",
+        "Finally, a solution that helps families manage health together. This could be a game-changer for preventive care.",
     },
   ];
 
@@ -88,7 +88,7 @@ export const TestimonialSection = () => {
   return (
     <div
       id="testimonials"
-      className="overflow-hidden mt-9 h-[660px] md:h-[660px] lg:mt-8 rounded-3xl relative "
+      className="overflow-hidden mt-9 h-[700px] md:h-[660px] lg:mt-8 rounded-3xl relative "
     >
       <img
         src="/images/bg-img.png"
@@ -106,17 +106,16 @@ export const TestimonialSection = () => {
 
         {/* Content */}
         <Container>
-          <div className="relative z-10 lg:mt-12">
+          <div className="relative z-10 lg:mt-12 mt-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left side */}
               <ScrollReveal>
               <div className="text-white space-y-9 lg:space-y-12">
                 <h2 className="text-3xl md:text-5xl font-medium mb-4">
-                  What our Users are saying their experience
+                Why Nduka Health Matters
                 </h2>
                 <p className="text-white lg:text-lg max-w-xl">
-                  Customers give us their expedience and ratings while working
-                  with us.
+                  What potential users are saying about Nduka.
                 </p>
               </div>
               </ScrollReveal>

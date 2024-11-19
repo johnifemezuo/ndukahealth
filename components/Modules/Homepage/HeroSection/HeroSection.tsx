@@ -1,14 +1,15 @@
 import Reveal from "@/components/Animation/Reveal";
 import { Container } from "@/components/layout/Container";
+import { motion } from "framer-motion";
 
 export const HeroSection = () => {
   return (
     <Container>
-      <div className="w-full px-4 lg:px-0 lg:flex overflow-hidden justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 lg:items-center">
+      <div className="w-full px-4 lg:px-0 lg:flex  justify-between lg:space-x-12 py-12 md:pt-20  xl:py-20 lg:items-center">
         <Reveal delay={0}>
           <div className="w-full text-center lg:text-left lg:w-[650px] xl:w-[750px] space-y-8 lg:space-y-12 pt-20 ">
             <h1 className="text-4xl lg:text-6xl xl:text-6xl leading-10 font-medium text-[#30372F]">
-              Take Control of Your Health with Real-Time Insights
+              Take Control of Your Health with Personalized AI Insights
             </h1>
 
             <p className="lg:text-lg leading-7 max-w-xl text-[#30372F]">
@@ -23,10 +24,14 @@ export const HeroSection = () => {
                 target="_blank"
                 className="lg:flex  space-x-8"
               >
-                <button className="bg-[#0AD23F] px-6 py-4 rounded-md font-medium lg:text-lg">
-                  Join the Wait-list
-                </button>
-
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.8, type: "spring", bounce: 0.5 }}
+                >
+                  <button className="bg-[#0AD23F] px-6 py-4 rounded-md font-medium lg:text-lg">
+                    Join the Wait-list
+                  </button>
+                </motion.div>
                 <svg
                   width="125"
                   height="56"
@@ -47,15 +52,19 @@ export const HeroSection = () => {
           </div>
         </Reveal>
 
-        <Reveal delay={1} duration={1}>
-          <div className="mt-12 lg:mt-0  mx-auto ">
+        <div className="mt-12 lg:mt-0  mx-auto  relative">
+          <Reveal delay={1} duration={1}>
             <img
               src="/images/hero-illustration.png"
               alt="nduka hero"
               className="w-[400px] mx-auto lg:w-auto"
             />
+          </Reveal>
+
+          <div className="absolute -bottom-10 scroll-up-arrow">
+            <img src="/images/herosub.png" alt="nduka hero" />
           </div>
-        </Reveal>
+        </div>
       </div>
     </Container>
   );

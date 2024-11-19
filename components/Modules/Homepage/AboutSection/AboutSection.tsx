@@ -16,9 +16,6 @@ export const AboutSection = () => {
                 <ScrollReveal>
                   <div className="space-y-6 w-full md:w-[50-0px]  xl:max-w-[700px]">
                     <div className="space-y-2">
-                      <h2 className="text-sm leading-6 font-medium text-gray-500 uppercase tracking-wider">
-                        About Us
-                      </h2>
                       <h1 className="text-2xl lg:text-4xl font-medium text-gray-700">
                         Maximize Your Productivity with Our App
                       </h1>
