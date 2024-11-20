@@ -17,17 +17,12 @@ export const AboutSection = () => {
                   <div className="space-y-6 w-full md:w-[50-0px]  xl:max-w-[700px]">
                     <div className="space-y-2">
                       <h1 className="text-2xl lg:text-4xl font-medium text-gray-700">
-                        Maximize Your Productivity with Our App
+                      Take charge of your health with Nduka
                       </h1>
                     </div>
 
                     <p className="lg:text-lg text-gray-600">
-                      Discover the power of proactive health management with our
-                      innovative platform. We provide you with real-time insights
-                      that empower you to make informed decisions about your
-                      well-being. Stay ahead of potential health issues and
-                      optimize your lifestyle with personalized data at your
-                      fingertips.
+                    Discover the power of proactive health management with our innovative solution. We provide you with real-time insights that empower you to make informed decisions about your well-being. Stay ahead of potential health issues and optimize your lifestyle with personalized data at your fingertips.
                     </p>
 
                     <div className="flex -space-x-4">

@@ -31,15 +31,15 @@ export const DesignedForSection = () => {
       imageUrl: "/images/img2.png",
     },
     {
-      title: "Health care providers",
+      title: "Healthcare providers",
       description:
-        "Our app helps you track your wellness journey with instant feedback and personalized suggestions to achieve your health goals.",
+        "We provide healthcare providers with AI-driven tools for remote patient monitoring, early risk detection, and personalized care planning. By offering real-time health insights and consolidating patient data, providers can improve outcomes, reduce costs, and foster stronger patient engagement.",
       imageUrl: "/images/img3.png",
     },
     {
       title: "Insurance Companies",
       description:
-        "Insurance platform helps families secure their future by providing personalized coverage options and real-time support for their health and financial needs.",
+        "We help insurance companies to promote healthier behaviors by offering AI-driven health insights and proactive risk management tools to their customers. By reducing the likelihood of chronic disease claims through early detection and lifestyle recommendations, insurers can lower costs and improve customer satisfaction.",
       imageUrl: "/images/img4.png",
     },
     {

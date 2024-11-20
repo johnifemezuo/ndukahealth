@@ -62,7 +62,7 @@ export const HeroSection = () => {
           </Reveal>
 
           <div className="absolute -bottom-10 scroll-up-arrow">
-            <img src="/images/herosub.png" alt="nduka hero" />
+            <img src="/images/Herosub.png" alt="nduka hero" />
           </div>
         </div>
       </div>

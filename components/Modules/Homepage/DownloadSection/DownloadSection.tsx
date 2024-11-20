@@ -18,7 +18,7 @@ export const DownloadSection = () => {
           <ScrollReveal>
             <div className="w-full text-center  space-y-8 lg:space-y-12 pt-20 ">
               <h1 className="text-3xl lg:text-6xl xl:text-6xl leading-10 font-medium text-zinc-800">
-              Why Nduka Health Matters
+              Be the First to Experience Nduka Health AI
               </h1>
 
               <p className="text-lg leading-7 lg:text-xl ">

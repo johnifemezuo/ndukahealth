@@ -96,7 +96,7 @@ export default function Footer() {
 
               {/* Right Section */}
               <div className="mt-6 lg:mt-0 max-w-2xl">
-                <ul className="mt-4 space-y-2 lg:space-y-3">
+                <ul className="mt-4 space-y-3 lg:space-y-3">
                   {/* <li className="flex items-center space-x-2">
                     <PhoneIcon />
                     <span className="text-gray-600">+234 534 5455</span>
@@ -137,9 +137,9 @@ export default function Footer() {
                       Address
                     </h3>
                     
-                  <li className="flex items-center space-x-2">
+                  <li className="flex space-x-2">
                     <MapIcon />
-                    <span className="text-gray-600">
+                    <span className="text-gray-600 max-w-xs">
                       71-75, Shelton Street, Covent Garden, London, WC2H 9JQ
                     </span>
                   </li>

@@ -147,7 +147,7 @@ export const TestimonialSection = () => {
                   </p>
                   <div className="absolute bottom-12 right-8 text-5xl text-emerald-100 rotate-12">
                     <img
-                      src="/quote.svg"
+                      src="/Quote.svg"
                       alt=""
                       className="w-20 md:w-28 md:h-28"
                     />
