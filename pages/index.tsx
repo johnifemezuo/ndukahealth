@@ -23,6 +23,7 @@ export default function Home() {
       <title>Nduka : Take Control of Your Health with Real-Time Insights</title>
 
       <main className={poppins.className}>
+
         <HeroSectionContainer>
           <HeroSection />
         </HeroSectionContainer>

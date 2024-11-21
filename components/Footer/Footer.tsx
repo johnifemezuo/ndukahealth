@@ -14,13 +14,13 @@ export default function Footer() {
         <div className="lg:flex justify-between items-center">
           {/* Left Section */}
           <ScrollReveal>
-            <div className="max-w-2xl">
+            <div className="max-w-xl lg:w-[300px]">
               <div className="lg:w-56 w-44 h-32">
               <Logo />
               </div>
 
               <p className=" text-gray-700 mt-5">
-                Nduka Health Limited Registered in England & Wales
+              71-75, Shelton Street, Covent Garden, London, WC2H 9JQ
               </p>
               <div className="flex space-x-4 mt-4">
                 {/* Social Media Icons */}
@@ -58,51 +58,12 @@ export default function Footer() {
 
           <ScrollReveal>
             <div className="lg:flex justify-between lg:space-x-44 mt-8">
-              {/* Middle Section */}
-              {/* <div>
-                <h3 className="text-gray-800 font-semibold text-lg">Company</h3>
-                <ul className="mt-4 space-y-2 lg:space-y-4">
-                  <li>
-                    <a href="/" className="text-gray-600 hover:text-green-600">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/#About"
-                      className="text-gray-600 hover:text-green-600"
-                    >
-                      About us
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/#Feature"
-                      className="text-gray-600 hover:text-green-600"
-                    >
-                      Features
-                    </a>
-                  </li>
-                  <li>
-                    <Link
-                      href="/#Testimonials"
-                      className="text-gray-600 hover:text-green-600"
-                    >
-                      Testimonial
-                    </Link>
-                  </li>
-                </ul>
-              </div> */}
 
               {/* Right Section */}
-              <div className="mt-6 lg:mt-0 max-w-2xl">
-                <ul className="mt-4 space-y-3 lg:space-y-3">
-                  {/* <li className="flex items-center space-x-2">
-                    <PhoneIcon />
-                    <span className="text-gray-600">+234 534 5455</span>
-                  </li> */}
+              <div className="mt-6 lg:mt-0 ">
+                <ul className="mt-4 space-y-3 lg:space-y-0 md:flex items-center  lg:space-x-8">
                   <div className="space-y-2">
-                    <h3 className="text-gray-700 font-medium text-lg">
+                    <h3 className="text-gray-700  text-lg lg:text-2xl">
                       Partnership
                     </h3>
                     <li className="flex items-center space-x-2">
@@ -113,7 +74,7 @@ export default function Footer() {
                     </li>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-gray-700 font-medium text-lg">
+                    <h3 className="text-gray-700  text-lg lg:text-2xl">
                       Press
                     </h3>
                   <li className="flex items-center space-x-2">
@@ -123,25 +84,12 @@ export default function Footer() {
                   </div>
 
                   <div className="space-y-2">
-                    <h3 className="text-gray-700 font-medium text-lg">
+                    <h3 className="text-gray-700  text-lg lg:text-2xl">
                       Enquiries
                     </h3>
                     <li className="flex items-center space-x-2">
                     <EmailIcon />
                     <span className="text-gray-600">contact@nduka.health</span>
-                  </li>
-                  </div>
-
-                  <div className="space-y-2">
-                    <h3 className="text-gray-700 font-medium text-lg">
-                      Address
-                    </h3>
-                    
-                  <li className="flex space-x-2">
-                    <MapIcon />
-                    <span className="text-gray-600 max-w-xs">
-                      71-75, Shelton Street, Covent Garden, London, WC2H 9JQ
-                    </span>
                   </li>
                   </div>
 

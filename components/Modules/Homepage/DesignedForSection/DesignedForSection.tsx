@@ -27,25 +27,25 @@ export const DesignedForSection = () => {
     {
       title: "Individuals",
       description:
-        "We empower you with tools to monitor your health and prevent chronic diseases before they take hold. Our AI-driven insights offer personalized recommendations to help you stay ahead and take control of your well-being.",
+        "We empower you with tools to monitor your health and prevent chronic diseases before they take hold. ",
       imageUrl: "/images/img2.png",
     },
     {
       title: "Healthcare providers",
       description:
-        "We provide healthcare providers with AI-driven tools for remote patient monitoring, early risk detection, and personalized care planning. By offering real-time health insights and consolidating patient data, providers can improve outcomes, reduce costs, and foster stronger patient engagement.",
+        "We provide healthcare providers with AI-driven tools for remote patient monitoring, early risk detection, and personalized care planning. ",
       imageUrl: "/images/img3.png",
     },
     {
       title: "Insurance Companies",
       description:
-        "We help insurance companies to promote healthier behaviors by offering AI-driven health insights and proactive risk management tools to their customers. By reducing the likelihood of chronic disease claims through early detection and lifestyle recommendations, insurers can lower costs and improve customer satisfaction.",
+        "We help insurance companies to promote healthier behaviors by offering AI-driven health insights and proactive risk management tools to their customers. ",
       imageUrl: "/images/img4.png",
     },
     {
       title: "Corporate Wellness Programs & Employers",
       description:
-        "Support your team’s well-being with our AI-powered health tracking and wellness insights. By promoting healthier lifestyles, we help you reduce absenteeism, increase productivity, and create a happier, more engaged workforce.",
+        "Support your team’s well-being with our AI-powered health tracking and wellness insights.",
       imageUrl: "/images/corporate-office.webp",
     },
   ];

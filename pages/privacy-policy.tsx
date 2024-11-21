@@ -1,17 +1,21 @@
 import Reveal from "@/components/Animation/Reveal";
 import { Container } from "@/components/layout/Container";
 import { PrivacyPolicy } from "@/components/Modules/PrivacyPolicy/PrivacyPolicy";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+});
 
 export default function PrivacyPolicyPage() {
   return (
     <>
       <title>Privacy Policy</title>
 
-      <main className="">
+      <main className={poppins.className}>
         <div className="overflow-hidden rounded-3xl relative z-0 pb-12 h-[300px] lg:h-[420px]">
           <div className="bg-white/90 z-50  w-full h-screen absolute inset-0"></div>
           <img

@@ -1,15 +1,20 @@
 import Reveal from "@/components/Animation/Reveal";
 import { Container } from "@/components/layout/Container";
 import { TermsAndCondition } from "@/components/Modules/TermsAndCondition/TermsAndCondition";
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+});
 
 export default function TermsAndConditionPage() {
   return (
     <>
       <title>Terms and condition</title>
 
-      <main className="">
+      <main className={poppins.className}>
         <div className="overflow-hidden rounded-3xl relative z-0 pb-12 h-[300px] lg:h-[420px]">
           <div className="bg-white/90 z-50  w-full h-screen absolute inset-0"></div>
           <img

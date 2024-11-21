@@ -1,5 +1,6 @@
 import { ScrollReveal } from "@/components/Animation";
 import { Container } from "@/components/layout/Container";
+import Image from "next/image";
 
 export const AboutSection = () => {
   return (
@@ -9,7 +10,7 @@ export const AboutSection = () => {
               <div className="lg:flex xl:flex-row flex flex-col-reverse space-y-12 lg:space-y-0 xl:space-x-20 2xl:justify-between items-center">
                 {/* Left side - Mobile App Preview */}
                 <ScrollReveal>
-                  <img src="/images/about-img.png"  className="lg:w-[550px] mt-12 lg:mt-0" alt="Nduka about us" />
+                  <Image src="/about.svg" width={700} height={700}  className="lg:w-[550px] mt-12 lg:mt-0" alt="Nduka about us" />
                 </ScrollReveal>
 
                 {/* Right side - Content */}
